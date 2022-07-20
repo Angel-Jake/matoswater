@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Mato's Water | Transaction</title>
+  <title>Mato's Water | Stocks</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -79,9 +79,9 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li><a href="stock.html"><i class="fa fa-line-chart"></i> <span>Stocks</span></a></li>
-        <li class="active"><a href="#"><i class="fa fa-exchange"></i> <span>Transaction</span></a></li>
-        <li><a href="sales.html"><i class="fa fa-money"></i> <span>Sales</span></a></li>
+        <li><a href="#"><i class="fa fa-line-chart"></i> <span>Stocks</span></a></li>
+        <li><a href="transaction.html"><i class="fa fa-exchange"></i> <span>Transaction</span></a></li>
+        <li class="active"><a href="sales.html"><i class="fa fa-money"></i> <span>Sales</span></a></li>
         <li><a href="#"><i class="fa fa-book"></i> <span>Page</span></a></li>
         <li class="header">OTHER ACTIONS</li>
         <li><a href="index.html"><i class="fa fa-sign-out text-red"></i> <span>Log out</span></a></li>
@@ -95,12 +95,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Transaction History
+        Sales
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Transaction</li>
+        <li class="active">Sales</li>
       </ol>
     </section>
 
@@ -114,8 +114,8 @@
               <h3 class="box-title">Data Table</h3>
 
               <div class="box-tools">
-                <div class="input-group pull-left" style="width: 130px;">
-                  <button type="button" class="btn btn-primary pull-left" style="height: 29px;">Add Transaction</button>
+                <div class="input-group pull-left" style="width: 85px;">
+                  <button type="button" class="btn btn-primary pull-left" style="height: 29px;">Add Item</button>
                 </div>
                   <div class="input-group pull-left" style="width: 60px;">
                   <button type="button" class="btn btn-primary pull-left" style="height: 29px;">Edit</button>
@@ -133,40 +133,39 @@
             <div class="box-body table-responsive no-padding">
               <table class="table table-hover">
                 <tr>
-                  <th>ID</th>
-                  <th>Date</th>
-                  <th>Name</th>
-                  <th>Total</th>
+                  <th>Image</th>
+                  <th>Item Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Description</th>
                 </tr>
                 <tr>
-                  <td>001</div></td>
-                  <td>April 2, 2022</td>
-                  <td>John Doe</td>
-                  <td>5,000</td>
+                  <td><div class="user-block"><img class="img-circle img-bordered-sm" src="dist/img/user6-128x128.jpg" alt="User Image"></div></td>
+                  <td>Item 1</td>
+                  <td>500.00</td>
+                  <td>15 pcs.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                 </tr>
                 <tr>
-                  <td>001</div></td>
-                  <td>April 2, 2022</td>
-                  <td>John Doe</td>
-                  <td>5,000</td>
+                  <td><div class="user-block"><img class="img-circle img-bordered-sm" src="dist/img/user6-128x128.jpg" alt="User Image"></div></td>
+                  <td>Item 2</td>
+                  <td>300.00</td>
+                  <td>16 pcs.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                 </tr>
                 <tr>
-                  <td>001</div></td>
-                  <td>April 2, 2022</td>
-                  <td>John Doe</td>
-                  <td>5,000</td>
+                  <td><div class="user-block"><img class="img-circle img-bordered-sm" src="dist/img/user6-128x128.jpg" alt="User Image"></div></td>
+                  <td>Item 3</td>
+                  <td>600.00</td>
+                  <td>13 pcs.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                 </tr>
                 <tr>
-                  <td>001</div></td>
-                  <td>April 2, 2022</td>
-                  <td>John Doe</td>
-                  <td>5,000</td>
-                </tr>
-                <tr>
-                  <td>001</div></td>
-                  <td>April 2, 2022</td>
-                  <td>John Doe</td>
-                  <td>5,000</td>
+                  <td><div class="user-block"><img class="img-circle img-bordered-sm" src="dist/img/user6-128x128.jpg" alt="User Image"></div></td>
+                  <td>Item 4</td>
+                  <td>100.00</td>
+                  <td>13 pcs.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                 </tr>
               </table>
             </div>
