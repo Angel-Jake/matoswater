@@ -91,7 +91,9 @@ else {
 				<div class="loginButtonContainer">
 				<?php   insert_categories();    ?>
 
-					<h1>Register Here! </h1>
+
+				<div class="loginButtonRegisterhere">
+					<h1>Register or Login</h1>
 
 				</div>
 
@@ -116,9 +118,6 @@ else {
 				<div class="loginButtonContainer">
 
                         <input class="btn btn-primary" type="submit" value="Register" name="regacc">
-                    
-					
-					<h4>Or</h4>
 					
 						<input class="btn btn-primary" type="submit" name="login" value="Login" name="regacc">
 					

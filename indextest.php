@@ -73,24 +73,34 @@ else {
 
 
 
-<!DOCTYPE  html>
-<html>
-<head>
-	<title>IMS Login Inventory Management System</title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body>
-	<div class="container">
-		<div class="loginHeader">
-			<h1>MATO'S WATER</h1>
-			<p>Equipment and Supplies Trading</p>
-		
-		</div>
-		<div class="loginBody">
-			<form action="" method="post">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>IMS Login Inventory Management System</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title login">
+               Mato's Water Login
+            </div>
+            <div class="title signup">
+               Mato's Water Signup
+            </div>
+         </div>
+      
+			
+            <div class="form-inner">
+            <form action="" method="post">
 				<div class="loginButtonContainer">
 				<?php   insert_categories();    ?>
 
+
+				<div class="loginButtonRegisterhere">
 					<h1>Register Here! </h1>
 
 				</div>
@@ -114,9 +124,10 @@ else {
 				</div>
 
 				<div class="loginButtonContainer">
+            <div class="field-btn">
 
                         <input class="btn btn-primary" type="submit" value="Register" name="regacc">
-                    
+
 					
 					<h4>Or</h4>
 					
@@ -128,8 +139,27 @@ else {
 
 
 			</form>  
-		</div>
-	</div>
-</body>
+            </div>
+         </div>
+      </div>
+      <script>
+         const loginText = document.querySelector(".title-text .login");
+         const loginForm = document.querySelector("form.login");
+         const loginBtn = document.querySelector("label.login");
+         const signupBtn = document.querySelector("label.signup");
+         const signupLink = document.querySelector("form .signup-link a");
+         signupBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "-50%";
+           loginText.style.marginLeft = "-50%";
+         });
+         loginBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "0%";
+           loginText.style.marginLeft = "0%";
+         });
+         signupLink.onclick = (()=>{
+           signupBtn.click();
+           return false;
+         });
+      </script>
+   </body>
 </html>
-
