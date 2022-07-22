@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:#43d5e8;
 }
 
 *{
@@ -29,7 +29,7 @@ section{
     color:#333;
     padding:1rem;
     margin:10rem 0;
-    background:rgba(255, 51, 153,.05);
+    background:rgba(51, 231, 255, 0.05);
 }
 
 .heading span{
@@ -60,7 +60,7 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 56, 58, 0.1);
 }
 
 header .logo{
