@@ -81,38 +81,31 @@ else {
 </head>
 <body>
 	<div class="container">
-		<div class="loginHeader">
-			<h1>MATO'S WATER</h1>
-			<p>Equipment and Supplies Trading</p>
-		
-		</div>
+
 		<div class="loginBody">
 			<form action="" method="post">
 				<div class="loginButtonContainer">
 				<?php   insert_categories();    ?>
 
 
-				<div class="loginButtonRegisterhere">
-					<h1>Register or Login</h1>
-
-				</div>
+				<img class="logo" src="images/matoswaterlogin.jpeg" alt="LOGO">
 
 
 				<div class="loginInputsContainer">
 					<label for="">Username</label>
-					<input placeholder="username"type="text" name="user" required/>
+					<input placeholder="Username"type="text" name="user" required/>
 				</div>
 
 
 				<div class="loginInputsContainer">
 					<label for="">Email</label>
-					<input placeholder="email"type="text" name="email" required/>
+					<input placeholder="Email"type="text" name="email" required/>
 				</div>
 
 
 				<div class="loginInputsContainer">
 					<label for="">Password</label>
-					<input placeholder="password"type="password" name="password" required/>
+					<input placeholder="Password"type="password" name="password" required/>
 				</div>
 
 				<div class="loginButtonContainer">
