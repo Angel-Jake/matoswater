@@ -64,6 +64,8 @@ header .logoprod {
 	color: rgba(0,136,169,0.8);
 }
 
+
+
 button {
 	padding: 9px 25px;
 	background-color: #fff;
@@ -78,12 +80,37 @@ button:hover {
 	color: #fff;
 }
 
+buttonl {
+	padding: 9px 25px;
+	background-color: #fff;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+buttonl:hover {
+	background-color: rgba(0,136,169,0.8);
+	color: #fff;
+}
+
+
 .column_left {
   float: left;
   width: 50%;
   padding: 2px;
 }
 
+.column_right2 {
+	float: right;
+	width: 30%;
+	padding: 2px;
+  }
+  .column_right3 {
+	float: right;
+	width: 30%;
+	padding: 300px;
+  }
 .column_right {
   float: left;
   width: 50%;
